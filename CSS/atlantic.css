@@ -1,0 +1,357 @@
+/* Linked css document for Atlantic Trails Resort's Website */
+/* File Name: atlantic.css */
+
+body{
+  background: linear-gradient(#E0E0E0, #757575);
+  color: #000001;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+  background-color: #000033;
+  background-image: url("../images/sunset.jpg");
+  background-position: right;
+  background-repeat: no-repeat;
+  color: #FFFFFF;
+  line-height: 400%;
+}
+
+nav{
+  display: table-cell;
+  font-weight: bold;
+  padding: 18px;
+  vertical-align: top;
+}
+
+main{
+  display: table-cell;
+}
+
+footer{
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 75%;
+  font-style: italic;
+  text-align: center;
+}
+
+h1{
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+h2{
+  color: #334DCC;
+}
+
+dd{
+  margin-bottom: 1.5em;
+}
+
+dt{
+  color: #000099;
+  font-size: 14pt;
+}
+
+table{
+  background-color: #C2DFFF;
+  margin: auto;
+  table-layout: auto;
+  width: 650px;
+}
+
+tr:nth-child(odd){
+  background-color: #659EC7;
+}
+
+tr:nth-child(even){
+  background-color: #56A5EC;
+}
+
+tr{
+  color: black;
+  line-height: 1.0em;
+}
+
+tr.highlight{
+  background-color: yellow;
+  color: red;
+}
+
+th{
+  font-weight: normal;
+  padding: 5px;
+}
+
+nav a{
+  text-decoration: none;
+}
+
+nav ul{
+  padding: 0;
+}
+
+nav li {
+  font-size: 1.2em;
+  list-style-type: none;
+  margin: 1.2em 0;
+  padding-left: 10px;
+}
+
+header h1{
+  margin-bottom: 0;
+  text-align: center;
+  text-indent: 0.5em;
+}
+
+main ul{
+  font-family: Calibri, "Times New Roman", sans-serif;
+  font-size: 13pt;
+  list-style-image: url("../images/marker.gif");
+}
+
+main form fieldset{
+  border: 2px solid blue;
+}
+
+main form ul li{
+  list-style: none;
+}
+
+main form label{
+   display: inline-block;
+   text-align: right;
+   margin-bottom: 1em;
+   margin-right: 2em;
+   vertical-align: top;
+   width: 140px;
+}
+
+.resort{
+  color: #005CE6;
+  font-weight: bold;
+}
+
+.description{
+  text-align: left;
+}
+
+#contact{
+  border: 1px black solid;
+  padding: 5px 8px;
+  margin-top: 3.9em;
+  font-size: 90%;
+}
+
+#contact-resize{
+  display: none;
+}
+
+#accomodationspage-mainimage{
+  background-image: url("../images/bungalow-main.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 300px;
+}
+
+#activitiespage-mainimage{
+  background-image: url("../images/trail-main.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 300px;
+}
+
+#indexpage-mainimage{
+  background-image: url("../images/coast-main.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 300px;
+}
+
+#package-main-row, #hiking-main-row, #kayaking-main-row, #bird-main-row{
+  background-color: #000099;
+  color: #EAEAEA;
+}
+
+#wrapper{
+  margin: 0 auto;
+  max-width: 1300px;
+  min-width: 975px;
+  width: 80%;
+}
+
+#submitButton{
+  background-color: blue;
+  border: none;
+  color: white;
+  margin: 1em 5px;
+}
+
+#resetButton{
+  background-color: #479AF7;
+  border: none;
+  color: white;
+  margin: 1em 5px;
+}
+
+@media only screen and (max-width: 99em)
+{
+  .alternative{
+    display: none;
+  }
+
+  .original{
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 64em){
+
+  body{
+    margin: 0;
+  }
+
+  nav{
+    display: block;
+    margin-left: 0;
+  }
+
+  main{
+    margin-left: 2px;
+  }
+
+  form{
+    margin: 10px;
+    width: 980px;
+  }
+
+  nav ul{
+    text-align: center;
+  }
+
+  nav li{
+    display: inline;
+    padding: 0.25em 0.75em;
+  }
+
+  nav img{
+    display: none;
+  }
+
+  .alternative{
+    display: none;
+  }
+
+  .original{
+    display: block;
+  }
+
+  #contact{
+    display: none;
+  }
+
+  #contact-resize{
+    border: 1.1px solid black;
+    display: block;
+    margin: 2px;
+    padding: 5px;
+    text-align: center;
+  }
+
+  #wrapper{
+    margin: 0;
+    min-width: 0;
+    width: auto;
+  }
+
+  #accomodationspage-mainimage, #activitiespage-mainimage, #indexpage-mainimage{
+    margin-left: 0;
+    height: 200px;
+  }
+
+  #contact-resize a{
+    color: black;
+    text-decoration: none;
+  }
+}
+
+@media only screen and (max-width: 37.5em){
+
+  header{
+    padding-top: 1em;
+  }
+
+  main{
+    font-size: 90%;
+    padding: 0.1em 1em;
+  }
+
+  h1{
+    font-size: 1.5em;
+  }
+
+  table{
+    display: none;
+  }
+
+  form{
+    width: 112%;
+  }
+
+  fieldset{
+    padding: 0;
+  }
+
+  main ul{
+    list-style: none;
+  }
+
+  nav li{
+    border-bottom: 2px solid #FFE4C4;
+    display: block;
+    margin: 0;
+  }
+
+  nav a{
+    display: block;
+  }
+
+  main form label{
+    display: block;
+    text-align: left;
+    margin: 0;
+    margin-top: 10px;
+  }
+
+  .alternative{
+    display: block;
+  }
+
+  .original{
+    display: none;
+  }
+
+  #submitButton{
+    margin-left: 2em;
+  }
+
+  #contact{
+    display: none;
+  }
+
+  #contact-resize{
+    border: 1.1px solid black;
+    display: block;
+    margin: 15px;
+    padding: 5px;
+    text-align: center;
+  }
+
+  #contact-resize a{
+    color: #551A8B;
+    text-decoration: underline;
+  }
+
+  #accomodationspage-mainimage, #activitiespage-mainimage, #indexpage-mainimage{
+    background-image: none;
+    height: 0;
+  }
+}
