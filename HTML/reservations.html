@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Atlantic Trails Resort </title>
+  <link rel="stylesheet" href="../CSS/atlantic.css">
+  <link rel="icon" href="../images/favicon.ico" type="image/x-icon">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="../javascript/app.js"></script>
+</head>
+<body id="reservations">
+  <div id="wrapper">
+    <header>
+      <h1>Atlantic Trails Resort</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="accommodations.html">Accommodations</a></li>
+        <li><a href="activities.html">Activities</a></li>
+        <li><a href="reservations.html">Reservations</a></li>
+        <li><a href="entertainment.html">Entretainment&nbsp;Schedule</a></li>
+      </ul>
+      <div id="contact">
+        <span class="resort">Atlantic Trails Resort</span><br/>
+        1227 Atlantic Trails Way<br/>
+        Andover, Maine 04226<br/><br/>
+        888-555-5555
+      </div>
+      <img src="../images/harbor1.png" style="margin-top: 5px;" height="250" width="250" alt="harbor sample image"/>
+    </nav>
+    <main>
+      <h2>Reservations at Atlantic Trails Resott</h2>
+      <h3>Contact Us Today To Plan Your Next Vacation</h3>
+      <p>Required fields are marked with astersik *</p>
+      <form action="http://cs.ucf.edu/~markl/atlanticformreport.php" method="post">
+        <fieldset>
+          <ul>
+            <li>
+              <label for="first_name">*First Name:</label>
+              <input type="text" id="first_name" name="first_name" required="required" autofocus/>
+            </li>
+            <li>
+              <label for="last_name">*Last Name:</label>
+              <input type="text" id="last_name" name="last_name" required="required"/>
+            </li>
+            <li>
+              <label for="email">*E-mail:</label>
+              <input type="email" id="email" name="email" required="required"/>
+            </li>
+            <li>
+              <label for="phone">Phone:</label>
+              <input type="tel" id="phone" name="phone"/>
+            </li>
+            <li>
+              <label for="date">Date:</label>
+              <input type="date" id="date" name="date"/>
+            </li>
+            <li>
+              <label for="arrival_time">Arrival Time:</label>
+              <input type="time" id="arrival_time" name="arrival_time"/>
+            </li>
+            <li>
+              <label for="number_of_nights">Number of Nights:</label>
+              <input type="number" id="number_of_nights" name="number_of_nights"/>
+            </li>
+            <li>
+              <!-- style="vertical-align: top;" -->
+              <label  for="comments">*Comments:</label>
+              <textarea id="comments" name="comments" rows="2" cols="32" required="required"></textarea>
+              <p id="box-info"></p>
+            </li>
+            <li>
+              <input type="submit" id="submitButton" name="submit" value="Submit"/>
+              <input type="reset" id="resetButton" name="rest_form" value="Reset Form"/>
+            </li>
+          </ul>
+        </fieldset>
+      </form>
+    </main>
+    <footer>
+      <div id="contact-resize">
+        <span class="resort">Atlantic Trails Resort</span><br/>
+        1227 Atlantic Trails Way<br/>
+        Andover, Maine 04226<br/><br/>
+        <a href="tel:888-555-5555">888-555-5555</a>
+      </div>
+      <p>
+        Copyright &copy; 2019 Atlantic Trails Resort<br/>
+        <a href="#">erick@pena.com</a><br/>
+        <span id="dateTime"></span>
+      </p>
+    </footer>
+  </div>
+</body>
+</html>
