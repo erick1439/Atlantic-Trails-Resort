@@ -9,7 +9,7 @@ body{
 
 header{
   background-color: #000033;
-  background-image: url("../images/sunset.jpg");
+  background-image: url("../IMAGES/sunset.jpg");
   background-position: right;
   background-repeat: no-repeat;
   color: #FFFFFF;
@@ -105,7 +105,7 @@ header h1{
 main ul{
   font-family: Calibri, "Times New Roman", sans-serif;
   font-size: 13pt;
-  list-style-image: url("../images/marker.gif");
+  list-style-image: url("../IMAGES/marker.gif");
 }
 
 main form fieldset{
@@ -146,21 +146,21 @@ main form label{
 }
 
 #accomodationspage-mainimage{
-  background-image: url("../images/bungalow-main.jpg");
+  background-image: url("../IMAGES/bungalow-main.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   height: 300px;
 }
 
 #activitiespage-mainimage{
-  background-image: url("../images/trail-main.jpg");
+  background-image: url("../IMAGES/trail-main.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   height: 300px;
 }
 
 #indexpage-mainimage{
-  background-image: url("../images/coast-main.jpg");
+  background-image: url("../IMAGES/coast-main.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   height: 300px;
